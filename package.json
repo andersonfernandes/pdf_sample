@@ -1,0 +1,14 @@
+{
+  "name": "pdf_sample",
+  "private": true,
+  "dependencies": {
+    "@rails/ujs": "^6.0.0-alpha",
+    "@rails/webpacker": "3.5",
+    "jquery-ujs": "^1.2.2",
+    "jspdf": "^1.5.3",
+    "rails-ujs": "^5.2.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
