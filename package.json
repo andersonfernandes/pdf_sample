@@ -4,9 +4,13 @@
   "dependencies": {
     "@rails/ujs": "^6.0.0-alpha",
     "@rails/webpacker": "3.5",
+    "puppeteer": "^1.12.2",
     "rails-ujs": "^5.2.2"
   },
   "devDependencies": {
     "webpack-dev-server": "2.11.2"
+  },
+  "scripts": {
+    "createPDF": "node scripts/js/pdf_creator"
   }
 }
