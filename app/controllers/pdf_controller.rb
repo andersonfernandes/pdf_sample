@@ -3,9 +3,12 @@ class PdfController < ApplicationController
   end
 
   def generate
-    generatePDF('http://localhost:3000') do |path|
+    generatePDF(pdf_report_url) do |path|
       send_file(path, filename: 'output.pdf', type: 'application/pdf', disposition: 'attachment')
     end
+  end
+
+  def report
   end
 
   private
