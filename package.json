@@ -11,6 +11,6 @@
     "webpack-dev-server": "2.11.2"
   },
   "scripts": {
-    "createPDF": "node scripts/js/pdf_creator"
+    "createPDF": "node app/javascript/node/pdf_creator"
   }
 }
