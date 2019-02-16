@@ -8,8 +8,5 @@
 // layout file, like app/views/layouts/application.html.erb
 
 import Rails from 'rails-ujs'
-import { build_pdf } from './pdf_builder'
-
-window.build_pdf = build_pdf
 
 Rails.start()
